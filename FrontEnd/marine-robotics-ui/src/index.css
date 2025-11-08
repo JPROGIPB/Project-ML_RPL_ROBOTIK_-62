@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-gradient: linear-gradient(135deg, #0c4a6e 0%, #075985 50%, #0369a1 100%);
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--bg-gradient);
+}
+
+.container-page {
+  @apply max-w-7xl mx-auto p-4 md:p-6 lg:p-8;
+}
+
+.card {
+  @apply bg-white/5 backdrop-blur border border-white/10 rounded-xl p-4 text-white;
+}
+
+.btn-primary {
+  @apply bg-ocean-500 hover:bg-ocean-600 text-white font-medium px-4 py-2 rounded-lg transition;
+}
+
+.input {
+  @apply bg-white/10 border border-white/20 rounded-lg px-3 py-2 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-ocean-400;
+}
