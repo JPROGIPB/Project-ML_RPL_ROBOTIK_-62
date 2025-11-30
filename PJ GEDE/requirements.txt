@@ -1,0 +1,7 @@
+numpy
+pandas
+torch
+torchvision
+Pillow
+requests
+ultralytics  # optional; required if you want direct yolov8 inference

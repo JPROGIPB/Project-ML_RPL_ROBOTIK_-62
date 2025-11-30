@@ -1,0 +1,28 @@
+# TACO Dataset Configuration for YOLOv8
+# Path to dataset (relative to this config file)
+
+path: ../datasets/TACO/data
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 10
+
+# Class names (Top 10 most common waste types)
+names:
+  0: plastic_bottle
+  1: can
+  2: plastic_bag
+  3: cigarette
+  4: paper
+  5: cardboard
+  6: glass_bottle
+  7: metal
+  8: styrofoam
+  9: other_trash
+
+# Dataset info
+# Total images: ~1500
+# Format: COCO JSON
+# License: CC BY 4.0

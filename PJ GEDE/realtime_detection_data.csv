@@ -1,0 +1,2 @@
+episode,step,robot_x,robot_y,battery,nearest_waste_x,nearest_waste_y,distance,progress,action,reward,done,description
+99,1,50,51,99.5,48,60,10.198039027185569,0.0,1,-0.5,False,"Episode 99 langkah 1: Robot di (50,51), baterai 99.5%, sampah terdekat di (48,60) jarak 10.20, progress 0.0%. Aksi: Selatan, reward: -0.50, selesai: Tidak."
